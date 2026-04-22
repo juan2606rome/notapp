@@ -18,7 +18,8 @@ const [materia, setMateria] = useState("")
 
 async function consultar() {
   // let url = ("http://localhost:3000/pokemon/"+ Texto )
-  let url = ("http://localhost:3000/estudiante")
+  // let url = ("http://localhost:3000/estudiante")
+  let url = ("https://notapp-jekr.onrender.com/estudiante")
     const estudiante = {
     cedula: cedula,
     nombre: nombre,

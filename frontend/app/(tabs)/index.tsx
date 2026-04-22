@@ -25,7 +25,8 @@ const [definitiva, setDefinitiva] = useState("")
 
 async function consultar() {
   // let url = ("http://localhost:3000/pokemon/"+ Texto )
-  let url = ("http://localhost:3000/estudiante/" + cedula)
+  // let url = ("http://localhost:3000/estudiante/" + cedula)
+  let url = ("https://notapp-jekr.onrender.com/estudiante/" + cedula)
   fetch(url)
   .then(response => response.json())
   .then(data => {
