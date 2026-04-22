@@ -20,8 +20,13 @@ const isProduction = process.env.NODE_ENV === 'production';
 //       }
 // );
 
+// const client = new Client({
+//   connectionString: "postgresql://postgres.osvoizwprmxlrgqmbqbp:HUKO98**sjde@aws-1-us-east-1.pooler.supabase.com:5432/postgres",
+//   ssl: { rejectUnauthorized: false }
+// });
+
 const client = new Client({
-  connectionString: "postgresql://postgres.osvoizwprmxlrgqmbqbp:HUKO98**sjde@aws-1-us-east-1.pooler.supabase.com:5432/postgres",
+  connectionString: process.env.DATABASE_URL,
   ssl: { rejectUnauthorized: false }
 });
 
