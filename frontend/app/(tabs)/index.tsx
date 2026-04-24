@@ -81,7 +81,7 @@ export default function Consulta() {
         )}
       </TouchableOpacity>
 
-      {consultado && (
+      
         <Tarjeta>
           <Text style={styles.cardTitle}>{nombre}</Text>
           <View style={styles.fila}>
@@ -111,7 +111,7 @@ export default function Consulta() {
             <Text style={[styles.valor, styles.definitiva]}>{definitiva || "—"}</Text>
           </View>
         </Tarjeta>
-      )}
+      
     </View>
   );
 }
