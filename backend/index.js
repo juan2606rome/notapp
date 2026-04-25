@@ -33,7 +33,7 @@ const sendJSON = (res, status, data) => {
 const swaggerSpec = {
   openapi: '3.0.3',
   info: {
-    title: 'NotApp – API de Registro de Notas',
+    title: 'notapp – API de Registro de Notas',
     version: '1.0.0',
     description:
       'Microservicio REST para gestión de estudiantes y notas académicas. ' +
@@ -386,7 +386,7 @@ const server = http.createServer(async (req, res) => {
     return res.end(`<!DOCTYPE html>
 <html lang="es">
   <head>
-    <title>NotApp – Documentación API</title>
+    <title>notapp – Documentación API</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/swagger-ui-dist@5.11.0/swagger-ui.css"/>

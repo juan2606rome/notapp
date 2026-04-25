@@ -81,7 +81,12 @@ export default function Consulta() {
         )}
       </TouchableOpacity>
 
-      
+      {/* //renderizado condicional 
+      {consultado && (
+          <Tarjeta>
+            ...
+          </Tarjeta>
+        )} */}
         <Tarjeta>
           <Text style={styles.cardTitle}>{nombre}</Text>
           <View style={styles.fila}>
